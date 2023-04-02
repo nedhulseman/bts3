@@ -79,12 +79,14 @@ The data is obtained using the package [baseball-scraper] (https://pypi.org/proj
 **createModelingByBatter.py**
 - Purpose:
 **createTableMatchups**
-- Purpose:
+- Purpose: Created batter/SP matchup level data, at the time of a given game date
+
+
 | game_date   |   batter |   pitcher |   game_pk |   hit |   non_ab |   out |   year |   game_ind |   year_hits |   year_outs |   year_non_abs |   year_games_played |   career_hits |   career_outs |   career_non_abs |   career_games_played |
 |:------------|---------:|----------:|----------:|------:|---------:|------:|-------:|-----------:|------------:|------------:|---------------:|--------------------:|--------------:|--------------:|-----------------:|----------------------:|
 | 2020-08-10  |   453568 |    605177 |    631546 |     1 |        0 |     0 |   2020 |          1 |         nan |         nan |            nan |                 nan |             9 |            22 |                3 |                    33 |
-| 2019-07-25  |   572821 |    543766 |    565945 |     0 |        1 |     0 |   2019 |          1 |           0 |           1 |              0 |                   1 |             4 |            21 |                8 |                    33 |
 | 2019-08-14  |   453568 |    605177 |    565472 |     0 |        0 |     1 |   2019 |          1 |           1 |           4 |              0 |                   5 |             9 |            21 |                3 |                    32 |
+| 2019-08-12  |   453568 |    605177 |    565470 |     0 |        0 |     1 |   2019 |          1 |           1 |           3 |              0 |                   4 |             9 |            20 |                3 |                    31 |
 
 
 

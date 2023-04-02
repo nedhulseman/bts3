@@ -58,6 +58,10 @@ The data is obtained using the package [baseball-scraper] (https://pypi.org/proj
 
 **main.py**
 - Purpose: Uses the get_data, createTable, and other local modules, to create
+**main_train.py**
+- Purpose:
+**train_model.py**
+- Purpose:
 **get_data.py**
 - Purpose: Collects data from statcast. This is used in prod to get recent data, as well as the source of data to train models
 
@@ -69,17 +73,18 @@ The data is obtained using the package [baseball-scraper] (https://pypi.org/proj
 |        2013 |   111072 | Bot             |    346831 | 2013-04-07  | R       | TOR         | BOS         |   18570 |      1 |         0 |      3 |452657 |
 |        2013 |   136660 | Bot             |    346831 | 2013-04-07  | R       | TOR         | BOS         |   19862 |      0 |         1 |      3 |452657 |
 |        2013 |   408314 | Bot             |    346831 | 2013-04-07  | L       | TOR         | BOS         |    7336 |      1 |         0 |      0 |452657 |
-|        2013 |   408314 | Bot             |    346831 | 2013-04-07  | R       | TOR         | BOS         |   17152 |      1 |         0 |      2 |452657
-|
-|        2013 |   425664 | Top             |    346831 | 2013-04-07  | L       | TOR         | BOS         |    6859 |      0 |         0 |      1 |285079 |
 
 **createTableRPPlayer.py**
 - Purpose:
-**get_data.py**
+**createModelingByBatter.py**
 - Purpose:
-**get_data.py**
+**createTableMatchups**
 - Purpose:
-**get_data.py**
+**createTablePlayerMeta.py**
+- Purpose:
+**createTodaysMatchups.py**
+- Purpose:
+**enterDailyPreds.py**
 - Purpose:
 
 

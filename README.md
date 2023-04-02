@@ -82,6 +82,7 @@ The data is obtained using the package [baseball-scraper] (https://pypi.org/proj
 - Purpose: Created batter/SP matchup level data, at the time of a given game date
 
 
+
 | game_date   |   batter |   pitcher |   game_pk |   hit |   non_ab |   out |   year |   game_ind |   year_hits |   year_outs |   year_non_abs |   year_games_played |   career_hits |   career_outs |   career_non_abs |   career_games_played |
 |:------------|---------:|----------:|----------:|------:|---------:|------:|-------:|-----------:|------------:|------------:|---------------:|--------------------:|--------------:|--------------:|-----------------:|----------------------:|
 | 2020-08-10  |   453568 |    605177 |    631546 |     1 |        0 |     0 |   2020 |          1 |         nan |         nan |            nan |                 nan |             9 |            22 |                3 |                    33 |

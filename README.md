@@ -54,7 +54,29 @@ The data is obtained using the package [baseball-scraper] (https://pypi.org/proj
 
 **Team Leads (Contacts) : [Jabari Myles](https://github.com/mylesj8259) [Ned Hulseman](https://github.com/nedhulseman)**
 
-#Model Data Other Members:
+## Overview of Scripts
+
+**main.py**
+- Purpose: Uses the get_data, createTable, and other local modules, to create
+**get_data.py**
+- Purpose: Collects data from statcast. This is used in prod to get recent data, as well as the source of data to train models
+
+**createTableGameLvl.py**
+- Purpose: Calculate game level summaries per hitter for hits, PAs, hometeam, starting_pitcher
+|      |   game_year |   batter | inning_topbot   |   game_pk | game_date   | stand   | home_team   | away_team   |   index |   hits |   non_abs |   outs |   starting_pitcher |\n|-----:|------------:|---------:|:----------------|----------:|:------------|:--------|:------------|:------------|--------:|-------:|----------:|-------:|-------------------:|\n|    0 |        2013 |   111072 | Bot             |    346831 | 2013-04-07  | R       | TOR         | BOS         |   18570 |      1 |         0 |      3 |             452657 |\n| 1403 |        2013 |   136660 | Bot             |    346831 | 2013-04-07  | R       | TOR         | BOS         |   19862 |      0 |         1 |      3 |             452657 |\n| 7808 |        2013 |   408314 | Bot             |    346831 | 2013-04-07  | L       | TOR         | BOS         |    7336 |      1 |         0 |      0 |             452657 |\n| 7809 |        2013 |   408314 | Bot             |    346831 | 2013-04-07  | R       | TOR         | BOS         |   17152 |      1 |         0 |      2 |             452657 |\n| 9767 |        2013 |   425664 | Top             |    346831 | 2013-04-07  | L       | TOR         | BOS         |    6859 |      0 |         0 |      1 |             285079 |
+
+**createTableRPPlayer.py**
+- Purpose:
+**get_data.py**
+- Purpose:
+**get_data.py**
+- Purpose:
+**get_data.py**
+- Purpose:
+
+
+
+## Data Dictionary:
 
 |Field                 | Field Name         | Script | Implemented |
 |------------------------|--------------------|-----------------|-------------|

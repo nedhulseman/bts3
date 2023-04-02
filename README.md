@@ -63,7 +63,15 @@ The data is obtained using the package [baseball-scraper] (https://pypi.org/proj
 
 **createTableGameLvl.py**
 - Purpose: Calculate game level summaries per hitter for hits, PAs, hometeam, starting_pitcher
-|      |   game_year |   batter | inning_topbot   |   game_pk | game_date   | stand   | home_team   | away_team   |   index |   hits |   non_abs |   outs |   starting_pitcher |\n|-----:|------------:|---------:|:----------------|----------:|:------------|:--------|:------------|:------------|--------:|-------:|----------:|-------:|-------------------:|\n|    0 |        2013 |   111072 | Bot             |    346831 | 2013-04-07  | R       | TOR         | BOS         |   18570 |      1 |         0 |      3 |             452657 |\n| 1403 |        2013 |   136660 | Bot             |    346831 | 2013-04-07  | R       | TOR         | BOS         |   19862 |      0 |         1 |      3 |             452657 |\n| 7808 |        2013 |   408314 | Bot             |    346831 | 2013-04-07  | L       | TOR         | BOS         |    7336 |      1 |         0 |      0 |             452657 |\n| 7809 |        2013 |   408314 | Bot             |    346831 | 2013-04-07  | R       | TOR         | BOS         |   17152 |      1 |         0 |      2 |             452657 |\n| 9767 |        2013 |   425664 | Top             |    346831 | 2013-04-07  | L       | TOR         | BOS         |    6859 |      0 |         0 |      1 |             285079 |
+
+|   game_year |   batter | inning_topbot   |   game_pk | game_date   | stand   | home_team   | away_team   |   index |   hits |   non_abs |   outs |   starting_pitcher |
+|------------:|---------:|:----------------|----------:|:------------|:--------|:------------|:------------|--------:|-------:|----------:|-------:|-------------------:|
+|        2013 |   111072 | Bot             |    346831 | 2013-04-07  | R       | TOR         | BOS         |   18570 |      1 |         0 |      3 |452657 |
+|        2013 |   136660 | Bot             |    346831 | 2013-04-07  | R       | TOR         | BOS         |   19862 |      0 |         1 |      3 |452657 |
+|        2013 |   408314 | Bot             |    346831 | 2013-04-07  | L       | TOR         | BOS         |    7336 |      1 |         0 |      0 |452657 |
+|        2013 |   408314 | Bot             |    346831 | 2013-04-07  | R       | TOR         | BOS         |   17152 |      1 |         0 |      2 |452657
+|
+|        2013 |   425664 | Top             |    346831 | 2013-04-07  | L       | TOR         | BOS         |    6859 |      0 |         0 |      1 |285079 |
 
 **createTableRPPlayer.py**
 - Purpose:
